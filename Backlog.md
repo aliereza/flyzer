@@ -1,7 +1,17 @@
 ToDo:
+General:
 
-1- Logstash config file (netflow,elasticsearch)
+1- Logstash config file
 2- GeoIP filter
-3- Botnet Filter
-4- Kibana dashboards
+3- Protocol Mapping
+4- Reverse DNS
 5- Installation Guide
+
+Performance:
+1- Average transfer Speed (AS/City)
+2- Kibana dashboards
+
+
+Security:
+1- Botnet dictionary
+2- Kibana Dashboards
