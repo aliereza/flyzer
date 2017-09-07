@@ -3,10 +3,10 @@ NetFlow Based Botnet Analyzer
 
 Flyzer is a set of custom configuration tweaks to ELK stack, that will help you find botnet activities in your network with netflow output.
 
-[![elasticsearch Version](https://img.shields.io/badge/elasticsearch-5.5.2-green.svg)](https://github.com/elastic/elasticsearch)
-[![logstash Version](https://img.shields.io/badge/logstash-5.5.2-green.svg)](https://github.com/elastic/logstash)
-[![kibana Version](https://img.shields.io/badge/kibana-5.5.2-green.svg)](https://github.com/elastic/kibana)
-
+[![elasticsearch Version](https://img.shields.io/badge/elasticsearch-v5.5.2-green.svg)](https://github.com/elastic/elasticsearch)
+[![logstash Version](https://img.shields.io/badge/logstash-v5.5.2-green.svg)](https://github.com/elastic/logstash)
+[![kibana Version](https://img.shields.io/badge/kibana-v5.5.2-green.svg)](https://github.com/elastic/kibana)
+[![NetFlow Version](https://img.shields.io/badge/NetFlow-5%2C%209-blue.svg)]
 ## Introduction
 There have been lots of botnet detection method in computer networks, some of them work perfectly, some of them has some false positives and false negatives. As botnet evolve, detection methods have to revolve to catch botnets. This method detects botnet based on similiar flows and has nothing to do with packet payload and DPI.
 
