@@ -1,6 +1,7 @@
 ToDo:
 
-1- Collect NetFlow v5,v7 and v9 data
-2- Dump collected data as "text"
-3- Push data into logstash
-4- 
+1- Logstash config file (netflow,elasticsearch)
+2- GeoIP filter
+3- Botnet Filter
+4- Kibana dashboards
+5- Installation Guide
