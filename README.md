@@ -1,7 +1,10 @@
 # Flyzer
 NetFlow Based Botnet Analyzer
 
-[![Kibana Version](https://img.shields.io/badge/Kibana-5.5.0-green.svg)](https://www.elastic.co/start)
+[![elasticsearch Version](https://img.shields.io/badge/elasticsearch-5.5.2-green.svg)](https://github.com/elastic/elasticsearch)
+[![logstash Version](https://img.shields.io/badge/logstash-5.5.2-green.svg)](https://github.com/elastic/logstash)
+[![kibana Version](https://img.shields.io/badge/kibana-5.5.2-green.svg)](https://github.com/elastic/kibana)
+
 
 Flyzer is a set of custom configuration tweaks to ELK stack, that will help you find botnet activities in your network with netflow output.
 
