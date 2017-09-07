@@ -16,6 +16,21 @@ There have been lots of botnet detection method in computer networks, some of th
 This method is maily developed over ELK stack and has been tested on multiple elasticsearch instances.
 
 ## ELK installation
-ELK Installation procedure is straight forward, if you are new to ELK stack, you might find [this] (https://www.elastic.co/start) helpful.
+ELK Installation procedure is straight forward, if you are new to ELK stack, you might find [this](https://www.elastic.co/start) helpful.
 
 ## Configuration
+
+### Netflow Input
+Logstash has fully functional netflow plugin which works seamlessly, start listening for flows by this sample. Complete configuration is under Configuration Folder.
+
+```sh
+input {
+  udp {
+    host => "0.0.0.0"
+    port => 2055
+    codec => netflow {
+      versions => [5, 9]
+    }
+    type => netflow
+  }
+```
