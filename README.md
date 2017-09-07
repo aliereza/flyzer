@@ -1,5 +1,5 @@
 # Flyzer
-NetFlow Based Botnet Analyzer
+NetFlow/S-Flow/IPFIX Based Botnet Analyzer
 
 Flyzer is a set of custom configuration tweaks to ELK stack, that will help you find botnet activities in your network with netflow output.
 
@@ -52,7 +52,8 @@ output {
 
 ## Network Appliance Configuration
 
-#### Cisco
+
+#### Cisco Router
 ```cisco
 router-2621(config)#interface FastEthernet 0/1
 router-2621(config-if)#ip route-cache flow
@@ -65,7 +66,10 @@ router-2621#show ip flow export
 router-2621#show ip cache flow
 ```
 
-#### Juniper
-
-
-#### Mikrotik
+#### Mikrotik Router
+```mikrotik
+/ip traffic-flow
+set enabled=yes interfaces=Ether3-Firewall
+/ip traffic-flow target
+add dst-address=192.168.9.101
+```
