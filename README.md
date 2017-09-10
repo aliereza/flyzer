@@ -1,4 +1,4 @@
-# Flyzer
+# Flyzer [![Version](https://img.shields.io/badge/release-none-lightgrey.svg)]()
 NetFlow/S-Flow/IPFIX Based Botnet Analyzer
 
 Flyzer is a set of custom configuration tweaks to ELK stack, that will help you find botnet activities in your network with netflow output.
