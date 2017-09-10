@@ -20,8 +20,22 @@ ELK Installation procedure is straight forward, if you are new to ELK stack, you
 
 ## ELK Configuration
 
+
+### Installation
+Flyzer has been tested on latest major linux distribution (CentOS, RHEL, Debian, Ubuntu), maker sure you have updated your ELK installation to the latest stable version.
+
+run this command to install flyzer:
+
+```sh
+# curl -o https://
+# chmod a+x flyzer-installer.sh
+# ./flyzer-installer.sh
+```
+
+
 ### Netflow input
 Logstash has fully functional netflow plugin which works seamlessly, start listening for flows by this sample. Complete configuration is under Configuration Folder.
+
 
 ```sh
 input {
