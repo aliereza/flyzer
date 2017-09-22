@@ -87,3 +87,7 @@ set enabled=yes interfaces=Ether3-Firewall
 /ip traffic-flow target
 add dst-address=192.168.9.101
 ```
+
+
+### Storage Calculation
+Busy networks generate millions of flows per minute
